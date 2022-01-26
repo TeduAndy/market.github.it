@@ -1,0 +1,87 @@
+// 頭部
+.header {
+    z-index: 99;
+    box-shadow: 0 0 0 3px #cccccc;
+    top: 0;
+    left: 0;
+}
+
+.title {
+    padding-top: 95px;
+    padding-left: 20px;
+    
+    div {
+        font-size: 3vh;
+        font-weight: 800;
+    }
+}
+
+.ti-bottom {
+    padding-top: 110px;
+    padding-right: 0px;
+    
+    div {
+        font-size: 2.5vh;
+        font-weight: 800;
+    }
+}
+
+
+.item_status {
+    margin-bottom: 100px;
+
+    .table {
+        margin-top: 25px;
+        
+        thead {
+            tr {
+                th {
+                    &:first-child {
+                        padding-left: 25px;
+                        padding-right: 25px;
+                    }
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                text-align: center;
+                td {
+                    padding: 38px 0;
+                    font-size: 2vh;
+                    font-weight: 800;
+                    &:first-child {
+                        padding: 20px 0;
+                    }
+                    .img_all {
+                        width: 50px;
+                        margin: 0 auto;
+                        img {
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+  
+}
+
+.car_bottom {
+    border-top: solid 2px #cccccc;
+    height: 100px;
+    position: fixed;
+    bottom: 0%;
+
+    .money-text {
+        font-size: 2vh;
+        font-weight: 800;
+        color: black;
+    }
+    .status-text {
+        font-size: 2vh;
+        color: #ee4d2d;
+    }
+}

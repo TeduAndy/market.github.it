@@ -1,0 +1,83 @@
+.header {
+  z-index: 99;
+  -webkit-box-shadow: 0 0 0 3px #cccccc;
+          box-shadow: 0 0 0 3px #cccccc;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  padding-top: 95px;
+  padding-left: 20px;
+}
+
+.title div {
+  font-size: 3vh;
+  font-weight: 800;
+}
+
+.ti-bottom {
+  padding-top: 110px;
+  padding-right: 0px;
+}
+
+.ti-bottom div {
+  font-size: 2.5vh;
+  font-weight: 800;
+}
+
+.item_status {
+  margin-bottom: 100px;
+}
+
+.item_status .table {
+  margin-top: 25px;
+}
+
+.item_status .table thead tr th:first-child {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.item_status .table tbody tr {
+  text-align: center;
+}
+
+.item_status .table tbody tr td {
+  padding: 38px 0;
+  font-size: 2vh;
+  font-weight: 800;
+}
+
+.item_status .table tbody tr td:first-child {
+  padding: 20px 0;
+}
+
+.item_status .table tbody tr td .img_all {
+  width: 50px;
+  margin: 0 auto;
+}
+
+.item_status .table tbody tr td .img_all img {
+  width: 100%;
+  height: auto;
+}
+
+.car_bottom {
+  border-top: solid 2px #cccccc;
+  height: 100px;
+  position: fixed;
+  bottom: 0%;
+}
+
+.car_bottom .money-text {
+  font-size: 2vh;
+  font-weight: 800;
+  color: black;
+}
+
+.car_bottom .status-text {
+  font-size: 2vh;
+  color: #ee4d2d;
+}
+/*# sourceMappingURL=item_status.css.map */

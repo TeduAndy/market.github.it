@@ -1,0 +1,55 @@
+// 頭部
+.header {
+    z-index: 99;
+    box-shadow: 0 0 0 3px #cccccc;
+    top: 0;
+    left: 0;
+}
+
+.title {
+    padding-top: 95px;
+    padding-left: 35px;
+    
+    div {
+        font-size: 35px;
+    }
+}
+
+
+.status {
+    margin-bottom: 100px;
+
+    .table {
+        margin-top: 15px;
+
+        tbody {
+            tr {
+                text-align: center;
+                td {
+                    padding: 20px 0;
+                    font-weight: 800;
+
+                    &:last-child {
+                        color: #ee4d2d;
+                    }
+                }
+            }
+        }
+    }
+  
+}
+
+.car_bottom {
+    border-top: solid 2px #cccccc;
+    height: 100px;
+    position: fixed;
+    bottom: 0%;
+
+    .title-text {
+        font-size: 24px;
+    }
+    .money-text {
+        font-size: 26px;
+        color: #ee4d2d;
+    }
+}

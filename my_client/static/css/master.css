@@ -1,0 +1,79 @@
+.header {
+  z-index: 99;
+  -webkit-box-shadow: 0 0 0 3px #cccccc;
+          box-shadow: 0 0 0 3px #cccccc;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  padding-top: 95px;
+  padding-left: 35px;
+}
+
+.title div {
+  font-size: 35px;
+}
+
+.master {
+  margin-bottom: 100px;
+}
+
+.master .user_status {
+  margin-top: 15px;
+}
+
+.master .user_status thead tr th {
+  font-size: 1.5vh;
+}
+
+.master .user_status thead tr th:first-child {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.master .user_status tbody tr {
+  text-align: center;
+}
+
+.master .user_status tbody tr td {
+  font-weight: 800;
+  font-size: 1.5vh;
+  padding: 10px 0;
+}
+
+.master .product {
+  margin-top: 15px;
+}
+
+.master .product thead tr th {
+  font-size: 1.5vh;
+}
+
+.master .product thead tr th:first-child {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.master .product tbody tr {
+  text-align: center;
+}
+
+.master .product tbody tr td {
+  font-weight: 800;
+  font-size: 1.5vh;
+  padding: 10px 0;
+}
+
+.car_bottom {
+  border-top: solid 2px #cccccc;
+  height: 100px;
+  position: fixed;
+  bottom: 0%;
+}
+
+.car_bottom .money-text {
+  font-size: 24px;
+  color: #ee4d2d;
+}
+/*# sourceMappingURL=master.css.map */

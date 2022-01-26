@@ -1,0 +1,54 @@
+.header {
+  z-index: 99;
+  -webkit-box-shadow: 0 0 0 3px #cccccc;
+          box-shadow: 0 0 0 3px #cccccc;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  padding-top: 95px;
+  padding-left: 35px;
+}
+
+.title div {
+  font-size: 35px;
+}
+
+.status {
+  margin-bottom: 100px;
+}
+
+.status .table {
+  margin-top: 15px;
+}
+
+.status .table tbody tr {
+  text-align: center;
+}
+
+.status .table tbody tr td {
+  padding: 20px 0;
+  font-weight: 800;
+}
+
+.status .table tbody tr td:last-child {
+  color: #ee4d2d;
+}
+
+.car_bottom {
+  border-top: solid 2px #cccccc;
+  height: 100px;
+  position: fixed;
+  bottom: 0%;
+}
+
+.car_bottom .title-text {
+  font-size: 24px;
+}
+
+.car_bottom .money-text {
+  font-size: 26px;
+  color: #ee4d2d;
+}
+/*# sourceMappingURL=status.css.map */

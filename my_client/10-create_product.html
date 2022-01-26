@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>商品詳情</title>
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <link rel="stylesheet" href="/static/css/bootstrap.css.map">
+        <link rel="stylesheet" href="/static/css/create_product.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    </head>
+    <body class="w-100">
+        <!-- 頭部 -->
+        <div class="header w-100 position-fixed">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container pt-2 pb-2 position-relative">
+                    <a class="navbar-brand ms-5 text-info" href="#">AndySecond</a>
+                    <a class="ms-4 text-dark" href="/index"></a>
+                    <div class="d-flex justify-content-end flex-grow-1">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse me-3" id="navbarNavDropdown">
+                        <div class="d-flex justify-content-lg-end w-100 justify-content-center">
+                            <ul class="navbar-nav">
+                                <a class="nav-link" href="/index">HOME</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        選項
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="/shop_car"><i class="fas fa-shopping-cart me-2"></i></i>購物車</a></li>
+                                    <li><a class="dropdown-item" href="/user"><i class="fas fa-users me-2"></i>個人資料</a></li>
+                                    <li><a class="dropdown-item" href="/status"><i class="fas fa-folder-open me-2"></i></i>訂單</a></li>
+                                    <li><a class="dropdown-item" href="/login"><i class="fas fa-sign-in-alt me-2"></i>登入</a></li>
+                                    <li><a class="dropdown-item" href="/register"><i class="fas fa-registered me-2"></i> 註冊</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt me-2"></i>登出</a></li>
+                                    <li><a class="dropdown-item" href="/master"><i class="fab fa-accusoft"></i> 後台</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="create-product container row">
+            <div class="prod-title d-flex justify-content-center">
+                <div class="col-12 col-lg-6 d-flex justify-content-end mt-2 me-5 ms-5">
+                    <div class="ms-1 col-1 col-lg-3">
+                        <input id="file" type="file"/>
+                    </div>
+                    <div class="prod-img mt-lg-4 mt-5">
+                        <img alt="" id="photo">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 mt-2">
+                    <div class="d-flex prod-text">
+                        <div class="ms-2">
+                            <input type="text" placeholder="請輸入商品名稱" class="w-100">
+                        </div>
+                    </div>
+                    <div class="col-10 col-lg-8 prod-input mt-5">
+                        <div class="d-flex">
+                            <div class="me-3 d-flex justify-content-center align-items-center">價格：</div>
+                            <div class="price-text">
+                                <input type="text" placeholder="請輸入價格" class="w-100">
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <div class="me-3">數量：</div>
+                            <div class="count_all">
+                                <input type="button" value="+" class="w-25" onclick="">
+                                <input type="text" value="0" class="w-50" id="count">
+                                <input type="button" value="-" class="w-25" onclick="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex mt-5 prod-text2">
+                        <div class="ms-1 d-flex justify-content-end">運送方式：</div>
+                        <div class="w-25">
+                            <div>全家取貨</div>
+                            <div>萊爾富取貨</div>
+                            <div>7-11取貨</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="prod-bottom">
+                <div class="bt-title m-auto col-lg-10">
+                    <div class="mt-3 prod-say">商品說明</div>
+                </div>
+                <div class="prod-say2 m-auto text-center mt-3 col-12 col-lg-10">
+                    <textarea name="" id="" cols="100" rows="8" placeholder="請輸入商品詳細內容" class="w-100"></textarea>
+                </div>
+            </div>
+        </div>
+        <!-- 底部 -->
+        <div class="bottom-block text-center mt-2 position-fixed bottom-0">
+            <div class="bottom-title row justify-content-evenly container">
+                <div class="col-3 col-lg-4">
+                    <div>NEED HELP</div> 
+                    <div class="text-all mt-3">
+                        <div class="mb-2">04-26112630</div>
+                        <div class="mb-2">聯絡時間(例假日除外) 9:30AM-6:00PM</div>
+                        <div><a href="#" style="text-decoration: none; color: black;">二手市場 FB粉絲專頁</a></div>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-4 ">
+                    <div>ABOUT US</div> 
+                    <div class="text-all mt-3">
+                        <div class="mb-2">購買方式</div>
+                        <div class="mb-2">退換貨政策</div>
+                        <div class="mb-2">常見Q&A</div>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-4 ">
+                    <div>FOLLOW</div> 
+                    <div class="mt-3">
+                        <a href="#" class="ms-3"><i class="fab fa-instagram" style="font-size: 30px; color: black;"></i></a>
+                        <a href="#" class="ms-3"><i class="fab fa-facebook-square" style="font-size: 30px;"></i></a>
+                        <a href="#" class="ms-3"><i class="fab fa-youtube" style="font-size: 30px; color: rgb(177, 43, 43);"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-bottom container">
+                <div>
+                    二手市場版權所有 Copyright © 2021
+                </div>
+                <div class="w-25 mt-2 d-flex justify-content-evenly">
+                    <div class="image"><img src="/static/images/pay/linepay.png" alt="" class="img-thumbnail"></div>
+                    <div class="image"><img src="/static/images/pay/2560px-Apple_Pay_logo.svg.png" alt="" class="img-thumbnail"></div>
+                </div>
+            </div>
+        </div>  
+        <script src="../static/js/bootstrap.js"></script>
+        <script src="../static/js/bootstrap.js.map"></script>
+        <script src="/static/js/jquery.min.js"></script>
+        <script>
+            $('#file').change(function() {
+                var file = $('#file')[0].files[0];
+                var reader = new FileReader;
+                reader.onload = function(e) {
+                    $('#photo').attr('src', e.target.result);
+                };
+                reader.readAsDataURL(file);
+                });
+        </script>
+    </body>
+</html>

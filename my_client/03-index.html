@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>二手市場</title>
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <link rel="stylesheet" href="/static/css/bootstrap.css.map">
+        <link rel="stylesheet" href="/static/css/index.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- 頭部 -->
+        <div class="header w-100 position-fixed">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container pt-2 pb-2 position-relative">
+                    <a class="navbar-brand ms-5 text-info" href="/index">AndySecond</a>
+                    <a class="ms-4 text-dark" href="#"></a>
+                    <div class="d-flex justify-content-end flex-grow-1">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse me-3" id="navbarNavDropdown">
+                        <div class="d-flex justify-content-lg-end w-100 justify-content-center">
+                            <ul class="navbar-nav">
+                                <a class="nav-link" href="/index">HOME</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        選項
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="/shop_car"><i class="fas fa-shopping-cart me-2"></i></i>購物車</a></li>
+                                    <li><a class="dropdown-item" href="/user"><i class="fas fa-users me-2"></i>個人資料</a></li>
+                                    <li><a class="dropdown-item" href="/status"><i class="fas fa-folder-open me-2"></i></i>訂單</a></li>
+                                    <li><a class="dropdown-item" href="/login"><i class="fas fa-sign-in-alt me-2"></i>登入</a></li>
+                                    <li><a class="dropdown-item" href="/register"><i class="fas fa-registered me-2"></i> 註冊</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt me-2"></i>登出</a></li>
+                                    <li><a class="dropdown-item" href="/master"><i class="fab fa-accusoft"></i> 後台</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </nav>
+        </div>
+        <!-- 購買註冊 -->  
+        <div class="container-fluid w-100">
+            <div class= "row h-100 w-100 justify-content-center align-items-center">
+                <div class="col-lg-6 col-12">
+                    <div class="center-1 w-100">
+                        <div class="text-center">
+                            <div class="title">
+                                Welcome
+                            </div>
+                            <div class="title-bottom">
+                                If You Went To Buy ?<br>
+                                Yor Can Go Register!
+                            </div>
+                        </div>
+                        <div class="w-100 text-center mt-4">
+                            <a href="/register" class="btn btn-info w-50">GO Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 商品 -->
+        <div class="product w-100 text-center container">
+            <div class="row">
+                <div class="prod-title col-xl-12 col-12 mt-4 mb-3">
+                    <ul class="d-flex justify-content-evenly list-unstyled">
+                        <li><button type="button" class="btn btn-outline-dark" onclick="">ALL</button></li>
+                        <li><button type="button" class="btn btn-outline-dark" onclick="">LIVE</button></li>
+                        <li><button type="button" class="btn btn-outline-dark" onclick="">3C</button></li>
+                    </ul>
+                </div>
+                <div class="prod-bottom col-lg-12 col-12">
+                    <div class="row text-center">
+                        <div class="col-lg-3 col-6 mb-3">
+                            <div class="position-relative mb-3">
+                                <div class="w-100 h-100 botton-image">
+                                    <a href="/product" class=><img src="/static/images/WechatIMG9.jpeg" alt="" class="img-thumbnail"></a>
+                                </div>         
+                            </div>
+                            <div>
+                                <button class="btn btn-sm btn-buy">查看/購買</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 mb-3">
+                            <div class="position-relative mb-3">
+                                <div class="w-100 h-100 botton-image">
+                                    <a href="/product" class=><img src="/static/images/WechatIMG9.jpeg" alt="" class="img-thumbnail"></a>
+                                </div>         
+                            </div>
+                            <div>
+                                <button class="btn btn-sm btn-buy">查看/購買</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 mb-3">
+                            <div class="position-relative mb-3">
+                                <div class="w-100 h-100 botton-image">
+                                    <a href="/product" class=><img src="/static/images/WechatIMG9.jpeg" alt="" class="img-thumbnail"></a>
+                                </div>         
+                            </div>
+                            <div>
+                                <button class="btn btn-sm btn-buy">查看/購買</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 mb-3">
+                            <div class="position-relative mb-3">
+                                <div class="w-100 h-100 botton-image">
+                                    <a href="/product" class=><img src="/static/images/WechatIMG9.jpeg" alt="" class="img-thumbnail"></a>
+                                </div>         
+                            </div>
+                            <div>
+                                <button class="btn btn-sm btn-buy">查看/購買</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 底部 -->
+        <div class="bottom-block text-center mt-2">
+            <div class="bottom-title row justify-content-evenly">
+                <div class="col-3 col-lg-4">
+                    <div>NEED HELP</div> 
+                    <div class="text-all mt-3">
+                        <div class="mb-2">04-26112630</div>
+                        <div class="mb-2">聯絡時間(例假日除外) 9:30AM-6:00PM</div>
+                        <div><a href="#" style="text-decoration: none; color: black;">二手市場 FB粉絲專頁</a></div>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-4 ">
+                    <div>ABOUT US</div> 
+                    <div class="text-all mt-3">
+                        <div class="mb-2">購買方式</div>
+                        <div class="mb-2">退換貨政策</div>
+                        <div class="mb-2">常見Q&A</div>
+                    </div>
+                </div>
+                <div class="col-3 col-lg-4 ">
+                    <div>FOLLOW</div> 
+                    <div class="mt-3">
+                        <a href="#" class="ms-3"><i class="fab fa-instagram" style="font-size: 30px; color: black;"></i></a>
+                        <a href="#" class="ms-3"><i class="fab fa-facebook-square" style="font-size: 30px;"></i></a>
+                        <a href="#" class="ms-3"><i class="fab fa-youtube" style="font-size: 30px; color: rgb(177, 43, 43);"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-bottom">
+                <div>
+                    二手市場版權所有 Copyright © 2021
+                </div>
+                <div class="w-25 mt-2 d-flex justify-content-evenly">
+                    <div class="image"><img src="/static/images/pay/linepay.png" alt="" class="img-thumbnail"></div>
+                    <div class="image"><img src="/static/images/pay/2560px-Apple_Pay_logo.svg.png" alt="" class="img-thumbnail"></div>
+                </div>
+            </div>
+        </div>    
+    </body>
+    <script src="../static/js/bootstrap.js"></script>
+    <script src="../static/js/bootstrap.js.map"></script>
+</html>
