@@ -5,18 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>商品詳情</title>
-        <link rel="stylesheet" href="static/css/bootstrap.css">
-        <link rel="stylesheet" href="static/css/bootstrap.css.map">
-        <link rel="stylesheet" href="static/css/create_product.css">
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <link rel="stylesheet" href="/static/css/bootstrap.css.map">
+        <link rel="stylesheet" href="/static/css/create_product.css">
         <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     </head>
-    <body class="w-100">
+    <body>
         <!-- 頭部 -->
         <div class="header w-100 position-fixed">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container pt-2 pb-2 position-relative">
                     <a class="navbar-brand ms-5 text-info" href="/market.github.it/my_client/03-index.html">AndySecond</a>
-                    <a class="ms-4 text-dark" href="/market.github.it/my_client/03-index.html"></a>
+                    <a class="ms-4 text-dark" href="/index"></a>
                     <div class="d-flex justify-content-end flex-grow-1">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -46,23 +46,24 @@
                 </div>
             </nav>
         </div>
-        <div class="create-product container row">
-            <div class="prod-title d-flex justify-content-center">
-                <div class="col-12 col-lg-6 d-flex justify-content-end mt-2 me-5 ms-5">
-                    <div class="ms-1 col-1 col-lg-3">
+        <!-- 創建商品 -->
+        <div class="create-product container">
+            <div class="prod-title d-lg-flex justify-content-center">
+                <div class="col-12 col-lg-6 mt-2">
+                    <div class="ms-lg-5 col-1 col-lg-3">
                         <input id="file" type="file"/>
                     </div>
-                    <div class="prod-img mt-lg-4 mt-5">
-                        <img alt="" id="photo">
+                    <div class="prod-img mt-lg-4 h-100 ms-lg-5 m-auto">
+                        <img alt="" id="photo" class=" img-thumbnail">
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 mt-2">
                     <div class="d-flex prod-text">
-                        <div class="ms-2">
+                        <div class="ms-5 ms-lg-2">
                             <input type="text" placeholder="請輸入商品名稱" class="w-100">
                         </div>
                     </div>
-                    <div class="col-10 col-lg-8 prod-input mt-5">
+                    <div class="col-10 col-lg-8 prod-input m-auto mt-5 m-lg-0 mt-lg-5">
                         <div class="d-flex">
                             <div class="me-3 d-flex justify-content-center align-items-center">價格：</div>
                             <div class="price-text">
@@ -78,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex mt-5 prod-text2">
+                    <div class="col-12 d-flex mt-5 prod-text2 justify-content-center justify-content-lg-start">
                         <div class="ms-1 d-flex justify-content-end">運送方式：</div>
                         <div class="w-25">
                             <div>全家取貨</div>
@@ -98,7 +99,7 @@
             </div>
         </div>
         <!-- 底部 -->
-        <div class="bottom-block text-center mt-2">
+        <div class="bottom-block text-center">
             <div class="bottom-title row justify-content-evenly container">
                 <div class="col-3 col-lg-4">
                     <div>NEED HELP</div> 
@@ -134,7 +135,8 @@
                     <div class="image"><img src="https://teduandy.github.io/market.github.it/my_client/static/images/pay/2560px-Apple_Pay_logo.svg.png" alt="" class="img-thumbnail"></div>
                 </div>
             </div>
-        </div>  
+        </div>
+          
         <script src="static/js/bootstrap.js"></script>
         <script src="static/js/bootstrap.js.map"></script>
         <script src="static/js/jquery.min.js"></script>
